@@ -32,7 +32,7 @@
         <nav class="nav">
           <ul class="nav__links">
             <li><a href="" class="nav__link"></a>Menu</li>
-            <li><a href="" class="nav__link"></a>Recipes</li>
+            <li><a href="#recipes" class="nav__link"></a>Recipes</li>
             <li><a href="" class="nav__link"></a>Book a table</li>
             <li><a href="" class="nav__link"></a>Contacts</li>
           </ul>
@@ -63,37 +63,36 @@
       </header>
 
       <main class="content">
-        <section class="recipes">
+        <section id="recipes" class="recipes">
           <h1 class="recipes__title">Recipes</h1>
           <p class="recipes__subtitle">
             Check out some recipes we've collected for your home-brewing
             convenience:
           </p>
-          <div class="recipes__videos">
+          <div class="recipes__video">
             <iframe
-              class="recipes__video-1"
+              class="recipes__iframe"
               width="480"
               height="273"
               src="https://www.youtube.com/embed/j6VlT_jUVPc"
               title="YouTube video player"
-              frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowfullscreen
             ></iframe>
             <iframe
-              class="recipes__video-2"
+              class="recipes__iframe"
               width="480"
               height="273"
               src="https://www.youtube.com/embed/st571DYYTR8"
               title="YouTube video player"
-              frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowfullscreen
             ></iframe>
           </div>
           <p class="recipes__video-caption">
-            <span class="recipe__video-title-1">Aeropress recipe</span> ~5 min
-            <span class="recipe__video-title-2">French press recipe</span>
+            <span class="recipes__video-caption-1">Aeropress recipe</span> ~5
+            min
+            <span class="recipes__video-caption-2">French press recipe</span>
             ~15 min
           </p>
         </section>
