@@ -5,9 +5,7 @@
     sans-serif;
   font-size: 16px;
   line-height: 20px;
-  margin-left: auto;
-  margin-right: auto;
-  overflow: hidden;
+  margin: 0 auto;
 }
 
 .header {
@@ -19,6 +17,11 @@
   min-height: 720px;
   max-height: 800px;
   height: 100vh;
+  position: relative;
+  padding: 30px 80px 40px;
+  z-index: 0;
+  display: flex;
+  flex-direction: column;
 }
 
 .header__logo {
@@ -30,9 +33,6 @@
 }
 
 .header__title {
-  position: absolute;
-  top: 202px;
-  left: 80px;
   display: flex;
   flex-direction: column;
   font-family: "Inter";
@@ -40,6 +40,7 @@
   font-weight: 500;
   font-size: 60px;
   line-height: 72px;
+  margin: 202px 0 0;
 }
 
 .header__title_italic {
@@ -52,15 +53,13 @@
 }
 
 .header__description {
-  position: absolute;
-  left: 80px;
-  bottom: 260px;
   font-family: "Noto Serif";
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
   max-width: 683px;
+  margin: 28px 0 0;
 }
 
 .header__image {
@@ -74,32 +73,16 @@
 .header__footer {
   display: flex;
   justify-content: space-between;
-}
-
-.header__footer_hours {
-  padding-left: 80px;
-  padding-bottom: 40px;
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
+  align-items: flex-end;
+  margin-top: auto;
+  width: 100%;
+  box-sizing: border-box;
   color: #838383;
+  font-weight: 500;
 }
 
-.header__footer_hour {
+.header__paragraph {
   margin: 0;
-}
-
-.header__footer_address {
-  padding-right: 80px;
-  padding-bottom: 40px;
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
-  color: #838383;
 }
 
 .nav {
