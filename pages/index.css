@@ -50,6 +50,7 @@
   font-size: 60px;
   line-height: 72px;
   color: #2f80ed;
+  margin: 0;
 }
 
 .header__description {
@@ -174,12 +175,11 @@
 
 .recipes__video-caption-1 {
   padding-right: 255px;
-  margin-left: 100px;
 }
 
 .recipes__video-caption-2 {
-  padding-left: 45px;
-  padding-right: 215px;
+  padding-left: 35px;
+  padding-right: 225px;
 }
 
 .menu {
