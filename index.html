@@ -33,7 +33,7 @@
           <ul class="nav__links">
             <li><a href="#menu" class="nav__link"></a>Menu</li>
             <li><a href="#recipes" class="nav__link"></a>Recipes</li>
-            <li><a href="#reservation" class="nav__link"></a>Book a table</li>
+            <li><a href="#book-table" class="nav__link"></a>Book a table</li>
             <li><a href="#about" class="nav__link"></a>Contacts</li>
           </ul>
         </nav>
@@ -107,9 +107,9 @@
           </div>
         </section>
         <section id="menu" class="menu"></section>
-        <section id="reservation" class="reservation">
-          <h1 class="reservation__title">Book a Table</h1>
-          <form class="form">
+        <section id="book-table" class="reservation">
+          <form class="form reservation__form">
+            <h1 class="reservation__title">Book a Table</h1>
             <fieldset class="form__fieldset">
               <label for="name" class="form__label">Name *</label>
               <input
@@ -135,7 +135,7 @@
               <input
                 type="datetime-local"
                 id="date-and-time"
-                class="form__input"
+                class="form__input form__input-date"
               />
               <label for="email" class="form__label">Your email *</label>
               <input
@@ -145,7 +145,12 @@
                 placeholder="email@email.com"
               />
             </fieldset>
-            <button type="submit" class="form__button">Book a table</button>
+            <fieldset
+              id="book-table"
+              class="form__fieldset form__fieldset-button"
+            >
+              <button type="submit" class="form__button">Book a table</button>
+            </fieldset>
             <fieldset class="form__fieldset form__fieldset-checkbox">
               <input
                 type="checkbox"
