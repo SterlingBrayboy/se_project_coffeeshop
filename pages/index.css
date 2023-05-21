@@ -196,13 +196,14 @@
   display: flex;
   justify-content: center;
   padding-top: 100px;
-  padding-bottom: 120px;
   z-index: 0;
 }
 
 .reservation__form {
-  display: flex;
-  flex-direction: column;
+  width: 385px;
+}
+
+.form {
 }
 
 .reservation__title {
@@ -215,10 +216,6 @@
   font-size: 44px;
   line-height: 52px;
   margin: 0;
-}
-
-.form {
-  width: 385px;
 }
 
 .form__fieldset {
