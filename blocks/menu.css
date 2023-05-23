@@ -1,0 +1,4 @@
+/* The margin property was applied to the menu to prevent an empty ruleset */
+.menu {
+  margin: 0;
+}
