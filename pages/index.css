@@ -86,7 +86,9 @@
   margin: 0;
 }
 
+/* The margin property was applied to the nav to prevent an empty ruleset */
 .nav {
+  margin: 0;
 }
 
 .nav__link {
@@ -103,9 +105,6 @@
   margin: 0;
   gap: 20px;
   list-style-type: none;
-}
-
-.content {
 }
 
 .recipes {
@@ -155,9 +154,6 @@
   column-gap: 40px;
 }
 
-.recipes__iframe {
-}
-
 .recipes__video-caption {
   max-width: 1500px;
   display: flex;
@@ -180,7 +176,9 @@
   padding-right: 215px;
 }
 
+/* The margin property was applied to the menu to prevent an empty ruleset */
 .menu {
+  margin: 0;
 }
 
 .reservation {
@@ -200,13 +198,6 @@
   z-index: 0;
 }
 
-.reservation__form {
-  width: 385px;
-}
-
-.form {
-}
-
 .reservation__title {
   display: flex;
   justify-content: center;
@@ -218,11 +209,33 @@
   margin: 0;
 }
 
+.reservation__form {
+  width: 385px;
+}
+
+/* The margin property was applied to the form to prevent an empty ruleset */
+.form {
+  margin: 0;
+}
+
 .form__fieldset {
   display: flex;
   flex-direction: column;
   border: none;
   padding-bottom: 0;
+}
+
+.form__fieldset-checkbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 12px;
+  padding-top: 32px;
+}
+
+.form__fieldset-button {
+  margin: 0;
+  padding-top: 0;
 }
 
 .form__label {
@@ -236,6 +249,10 @@
 
 .form__label:first-of-type {
   padding-top: 0;
+}
+
+.form__label-checkbox {
+  padding: 0;
 }
 
 .form__input {
@@ -255,27 +272,19 @@
   color: #000;
 }
 
-.form__fieldset-checkbox {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  gap: 12px;
-  padding-top: 32px;
-}
-
-.form__fieldset-button {
-  margin: 0;
-  padding-top: 0;
-}
-
 .form__input-checkbox {
   border-radius: 2px;
   height: 20px;
   width: 20px;
 }
 
-.form__label-checkbox {
-  padding: 0;
+.form__input::placeholder {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  color: #838383;
 }
 
 .form__button[type="submit"] {
@@ -298,17 +307,10 @@
   transition-duration: 0.5s;
 }
 
-.form__input::placeholder {
-  font-family: Inter;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
-  line-height: 30px;
-  color: #838383;
-}
-
-.about {
+/* .about {
+  margin: 0;
 }
 
 .footer {
-}
+  margin: 0;
+} */
