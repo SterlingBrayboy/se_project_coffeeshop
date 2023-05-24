@@ -11,12 +11,6 @@
   padding-bottom: 100px;
 }
 
-.menu__cards {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
 .card__title {
   font-family: "Inter";
   font-style: normal;
