@@ -57,7 +57,7 @@
 .footer__social-link:hover {
   transition-timing-function: linear;
   transition-duration: 0.5s;
-  background-color: #c1c1c1;
+  color: #c1c1c1;
 }
 
 .footer__social-icon {
