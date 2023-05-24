@@ -1,0 +1,23 @@
+/* .nav {
+} */
+
+.nav__link {
+  color: #000000;
+  text-decoration: none;
+  transition: 0.3s ease-in-out;
+}
+
+.nav__link:hover {
+  color: #2f80ed;
+}
+
+.nav__links {
+  position: absolute;
+  top: 30px;
+  right: 80px;
+  display: flex;
+  justify-content: flex-end;
+  margin: 0;
+  gap: 20px;
+  list-style-type: none;
+}
