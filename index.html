@@ -105,9 +105,22 @@
             </div>
           </div>
         </section>
-        <section id="menu" class="menu"></section>
+        <section id="menu" class="menu">
+          <h3 class="menu__title">Menu</h3>
+          <p class="menu__subtitle">
+            We brew coffee from locally roasted, Fairtrade certified beans and
+            use biodegradable cups. All teas from our collection are $2/cup.
+          </p>
+          <div class="menu__cards">
+            <ol class="card__title">
+              <li class="card__list-item">
+                <span class="card__list-divider">frfr</span>
+              </li>
+            </ol>
+          </div>
+        </section>
         <section id="reservation" class="reservation">
-          <h3 class="reservation__title">Book a table</h3>
+          <h4 class="reservation__title">Book a table</h4>
           <form class="form reservation__form">
             <fieldset class="form__fieldset">
               <label for="name" class="form__label">Name *</label>
@@ -160,9 +173,54 @@
             </fieldset>
           </form>
         </section>
-        <section id="about" class="about"></section>
+        <section id="about" class="about">
+          <h5 class="about__title">About the coffee shop</h5>
+          <div class="about__content">
+            <p class="about__paragraph">
+              Our coffee shop is located in the Practicum Library's hall. It
+              features 6 tables and free WiFi.
+            </p>
+            <p class="about__paragraph">
+              Our main mission is keeping guests cozy and energized
+            </p>
+            <p class="about__paragraph">
+              Besides that, we try to reduce our environmental impact — so we
+              don't sell single-use cups. But you can buy one of our reusable
+              cups!
+            </p>
+          </div>
+          <div class="about__circle"></div>
+        </section>
       </main>
-      <footer class="footer"></footer>
+      <footer class="footer">
+        <div class="footer__content">
+          <img src="./images/practicum_logo.svg" class="footer__logo" />
+          <div>
+            <h6 class="footer__social-heading">Social media</h6>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <a href="#" class="footer__social-link">
+                  <img
+                    src="./images/facebook_white.svg"
+                    alt="facebook"
+                    class="footer__social-icon"
+                  />Facebook</a
+                >
+              </li>
+              <li class="footer__list-item">
+                <a href="#" class="footer__social-link">
+                  <img
+                    src="./images/instagram_white.svg"
+                    alt="Instagram"
+                    class="footer__social-icon"
+                  />Instagram</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <p class="footer__copyright">© 2023 Sterling</p>
+      </footer>
     </div>
   </body>
 </html>
