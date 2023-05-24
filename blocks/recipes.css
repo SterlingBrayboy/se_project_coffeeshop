@@ -4,8 +4,6 @@
   background-position: center;
   background-size: cover;
   background-color: #0a2750;
-  min-height: 720px;
-  height: 100vh;
   display: flex;
   flex-direction: column;
   position: relative;

@@ -4,9 +4,6 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  min-height: 720px;
-  max-height: 800px;
-  height: 100vh;
   position: relative;
   display: grid;
   justify-content: center;
@@ -24,6 +21,7 @@
   font-size: 44px;
   line-height: 52px;
   margin: 0;
+  padding-bottom: 80px;
 }
 
 .reservation__form {
@@ -33,13 +31,13 @@
 /* The margin property was applied to the form to prevent an empty ruleset */
 .form {
   margin: 0;
+  padding-bottom: 120px;
 }
 
 .form__fieldset {
   display: flex;
   flex-direction: column;
   border: none;
-  padding-bottom: 0;
 }
 
 .form__fieldset-checkbox {
