@@ -1,9 +1,7 @@
 .header {
-  background-image: url(../images/background_header.svg);
+  background: no-repeat center url(../images/background_header.svg);
   background-color: #ffffff;
   background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
   min-height: 720px;
   max-height: 800px;
   height: 100vh;
@@ -14,29 +12,21 @@
   flex-direction: column;
 }
 
-.header__logo {
-  position: absolute;
-  top: 30px;
-  left: 30px;
-  width: 125px;
-  height: 142px;
-}
-
 .header__title {
   display: flex;
   flex-direction: column;
-  font-family: "Inter";
-  font-style: normal;
+  font-family: "Inter" Arial, sans-serif;
+  font-style: 400;
   font-weight: 500;
   font-size: 60px;
   line-height: 72px;
   margin: 202px 0 0;
 }
 
-.header__title_italic {
-  font-family: "Noto Serif";
+.header__span-accent {
+  font-family: "Noto Serif" Arial, sans-serif;
   font-style: italic;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 60px;
   line-height: 72px;
   color: #2f80ed;
@@ -44,9 +34,9 @@
 }
 
 .header__description {
-  font-family: "Noto Serif";
-  font-style: normal;
-  font-weight: normal;
+  font-family: "Noto Serif" Arial, sans-serif;
+  font-style: 400;
+  font-weight: 400;
   font-size: 20px;
   line-height: 30px;
   max-width: 683px;
@@ -59,6 +49,7 @@
   right: 5px;
   width: 646px;
   height: 568px;
+  z-index: -1;
 }
 
 .header__footer {

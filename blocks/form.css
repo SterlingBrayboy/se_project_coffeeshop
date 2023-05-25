@@ -1,7 +1,10 @@
-/* The margin property was applied to the form to prevent an empty ruleset */
 .form {
-  margin: 0;
-  padding-bottom: 120px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+  max-width: 385px;
 }
 
 .form__fieldset {
@@ -10,44 +13,42 @@
   border: none;
 }
 
-.form__fieldset-checkbox {
+.form__fieldset_checkbox {
   display: flex;
   flex-direction: row;
   justify-content: center;
   gap: 12px;
-  padding-top: 32px;
-}
-
-.form__fieldset-button {
-  margin: 0;
-  padding-top: 0;
+  margin: 32px 0 0;
+  padding: 0;
+  border: none;
 }
 
 .form__label {
-  font-family: Inter;
-  font-style: normal;
-  font-weight: 500;
+  font-family: "Inter" Arial, sans-serif;
+  font-style: 400;
+  font-weight: 400;
   font-size: 16px;
   line-height: 20px;
   padding: 32px 0 8px;
+}
+
+.form__label_checkbox {
+  padding: 0;
 }
 
 .form__label:first-of-type {
   padding-top: 0;
 }
 
-.form__label-checkbox {
-  padding: 0;
-}
-
 .form__input {
   border: 1px solid #838383;
   border-radius: 4px;
   padding-left: 20px;
+  padding-right: 20px;
   height: 60px;
-  font-family: Inter;
-  font-style: normal;
-  font-weight: normal;
+  font-family: "Inter" Arial, sans-serif;
+  font-style: 400;
+  font-weight: 400;
   font-size: 20px;
   line-height: 30px;
 }
@@ -57,37 +58,44 @@
   color: #000;
 }
 
-.form__input-checkbox {
+.form__input_type_checkbox {
   border-radius: 2px;
   height: 20px;
   width: 20px;
+  cursor: pointer;
 }
 
 .form__input::placeholder {
-  font-family: Inter;
-  font-style: normal;
-  font-weight: normal;
+  font-family: "Inter" Arial, sans-serif;
+  font-style: 400;
+  font-weight: 400;
   font-size: 20px;
   line-height: 30px;
   color: #838383;
 }
 
-.form__button[type="submit"] {
+.form__button {
   height: 60px;
   border: none;
   border-radius: 4px;
   background: #2f80ed;
   font-family: Inter;
-  font-style: normal;
+  font-style: 400;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
   color: #fff;
   margin-top: 32px;
+  cursor: pointer;
 }
 
-.form__button[type="submit"]:hover {
+.form__button:hover {
   opacity: 70%;
   transition: ease-in-out;
   transition-duration: 0.5s;
+}
+
+.form__button_type_submit {
+  margin: 0;
+  padding-top: 0;
 }

@@ -20,9 +20,9 @@
   justify-content: flex-end;
   margin: 0;
   color: #fff;
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: bold;
+  font-family: "Inter" Arial, sans-serif;
+  font-style: 400;
+  font-weight: 500;
   font-size: 16px;
   line-height: 20px;
   padding-bottom: 20px;
@@ -37,9 +37,9 @@
 
 .footer__list-item {
   color: #fff;
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: normal;
+  font-family: "Inter" Arial, sans-serif;
+  font-style: 400;
+  font-weight: 400;
   font-size: 16px;
   line-height: 20px;
   padding-bottom: 16px;
@@ -52,6 +52,8 @@
 .footer__social-link {
   text-decoration: none;
   color: #fff;
+  display: flex;
+  align-items: center;
 }
 
 .footer__social-link:hover {
@@ -68,9 +70,9 @@
 
 .footer__copyright {
   color: #fff;
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: normal;
+  font-family: "Inter" Arial, sans-serif;
+  font-style: 400;
+  font-weight: 400;
   font-size: 16px;
   line-height: 20px;
   margin: 0;
