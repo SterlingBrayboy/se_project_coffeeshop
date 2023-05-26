@@ -21,7 +21,7 @@
   margin: 0;
   color: #fff;
   font-family: "Inter", Arial, sans-serif;
-  font-style: 400;
+  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
@@ -38,7 +38,7 @@
 .footer__list-item {
   color: #fff;
   font-family: "Inter", Arial, sans-serif;
-  font-style: 400;
+  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
@@ -71,7 +71,7 @@
 .footer__copyright {
   color: #fff;
   font-family: "Inter", Arial, sans-serif;
-  font-style: 400;
+  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;

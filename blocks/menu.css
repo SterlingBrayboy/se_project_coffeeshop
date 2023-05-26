@@ -10,7 +10,7 @@
   max-width: 780px;
   margin: auto;
   padding-top: 100px;
-  font-family: "Inter" Arial, sans-serif;
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 44px;
@@ -24,7 +24,7 @@
   margin: auto;
   max-width: 850px;
   padding-top: 24px;
-  font-family: "Noto Serif";
+  font-family: "Noto Serif", Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
