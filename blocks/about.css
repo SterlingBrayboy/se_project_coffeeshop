@@ -29,7 +29,7 @@
   color: #fff;
   margin: 0;
   max-width: 251px;
-  font-family: "Inter" Arial, sans-serif;
+  font-family: "Inter", Arial, sans-serif;
   font-style: 400;
   font-weight: 400;
   font-size: 44px;
@@ -50,7 +50,7 @@
   margin-bottom: 0;
   display: flex;
   color: #fff;
-  font-family: "Noto Serif" Arial, sans-serif;
+  font-family: "Noto Serif", Arial, sans-serif;
   font-style: 400;
   font-weight: 400;
   font-size: 20px;

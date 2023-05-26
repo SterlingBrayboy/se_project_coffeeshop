@@ -1,15 +1,15 @@
-.nav {
-  cursor: pointer;
-}
+/* .nav {
+} */
 
 .nav__link {
-  font-family: "Inter" Arial, sans-serif;
+  font-family: "Inter", Arial, sans-serif;
   font-style: 400;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
   color: #000000;
   text-decoration: none;
+  cursor: pointer;
 }
 
 .nav__link:hover {

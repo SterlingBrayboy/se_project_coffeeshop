@@ -24,7 +24,7 @@
   margin: auto;
   max-width: 850px;
   padding-top: 24px;
-  font-family: "Noto Serif" Arial, sans-serif;
+  font-family: "Noto Serif";
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -37,4 +37,5 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: 100px;
+  padding-bottom: 100px;
 }
