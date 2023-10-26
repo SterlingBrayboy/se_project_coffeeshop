@@ -1,4 +1,4 @@
-# Practicum Coffee Shop
+# Coffee Shop Landing Page
 
 This is the second project of the Web Development program at Practicum. It was created using HTML and CSS, based on the design brief.
 
@@ -13,4 +13,4 @@ This is the second project of the Web Development program at Practicum. It was c
 
 ## See For Yourself
 
-[Practicum Coffee Shop](https://sterlingbrayboy.github.io/se_project_coffeeshop/)
+[Coffee Shop Landing Page](https://sterlingbrayboy.github.io/se_project_coffeeshop/)
