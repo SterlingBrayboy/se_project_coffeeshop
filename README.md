@@ -11,6 +11,6 @@ This is the second project of the Web Development program at Practicum. It was c
 - A custom form
 - CSS animation and transform
 
-## Plan on improving the project
+## See For Yourself
 
-Add your ideas here :)
+[Practicum Coffee Shop](https://sterlingbrayboy.github.io/se_project_coffeeshop/)
